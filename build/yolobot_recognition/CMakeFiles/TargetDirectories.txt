@@ -1,0 +1,9 @@
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/uninstall.dir
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/yolobot_recognition_uninstall.dir
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/test.dir
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/edit_cache.dir
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/rebuild_cache.dir
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/list_install_components.dir
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/install.dir
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/install/local.dir
+/home/parallels/test/build/yolobot_recognition/CMakeFiles/install/strip.dir

@@ -1,0 +1,58 @@
+[0.027s] Invoking command in '/home/parallels/test/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/parallels/test/src/mobile_robot_recognition -DCMAKE_INSTALL_PREFIX=/home/parallels/test/install/yolobot_recognition
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.190s] -- The CXX compiler identification is GNU 11.4.0
+[0.200s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.414s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.419s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.627s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.746s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.843s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.845s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.845s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.846s] -- Added test 'lint_cmake' to check CMake code style
+[0.847s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.848s] -- Added test 'xmllint' to check XML markup files
+[0.853s] -- Configuring done
+[0.856s] -- Generating done
+[0.857s] -- Build files have been written to: /home/parallels/test/build/yolobot_recognition
+[0.865s] Invoked command in '/home/parallels/test/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/parallels/test/src/mobile_robot_recognition -DCMAKE_INSTALL_PREFIX=/home/parallels/test/install/yolobot_recognition
+[0.865s] Invoking command in '/home/parallels/test/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/yolobot_recognition -- -j8 -l8
+[0.910s] Invoked command in '/home/parallels/test/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/yolobot_recognition -- -j8 -l8
+[0.946s] Invoking command in '/home/parallels/test/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/yolobot_recognition
+[0.955s] -- Install configuration: ""
+[0.955s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//scripts
+[0.956s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//scripts/.dockerignore
+[0.956s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitignore
+[0.956s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_subscriber.py
+[0.956s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitattributes
+[0.957s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8_ros2_pt.py
+[0.957s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov8n.pt
+[0.965s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//launch
+[0.965s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition//launch/launch_yolov8.launch.py
+[0.966s] -- Installing: /home/parallels/test/install/yolobot_recognition/lib/yolobot_recognition/yolov8_ros2_pt.py
+[0.966s] -- Installing: /home/parallels/test/install/yolobot_recognition/lib/yolobot_recognition/yolov8_ros2_subscriber.py
+[0.966s] -- Installing: /home/parallels/test/install/yolobot_recognition/lib/yolobot_recognition/launch_yolov8.launch.py
+[0.966s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/ament_index/resource_index/package_run_dependencies/yolobot_recognition
+[0.967s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/ament_index/resource_index/parent_prefix_path/yolobot_recognition
+[0.967s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.sh
+[0.967s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.dsv
+[0.968s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/environment/path.sh
+[0.968s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/environment/path.dsv
+[0.968s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/local_setup.bash
+[0.968s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/local_setup.sh
+[0.968s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/local_setup.zsh
+[0.968s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/local_setup.dsv
+[0.968s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.dsv
+[0.969s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/ament_index/resource_index/packages/yolobot_recognition
+[0.969s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig.cmake
+[0.969s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig-version.cmake
+[0.969s] -- Installing: /home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.xml
+[0.972s] Invoked command in '/home/parallels/test/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/yolobot_recognition

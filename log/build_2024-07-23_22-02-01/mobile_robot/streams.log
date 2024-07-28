@@ -1,0 +1,46 @@
+[0.016s] Invoking command in '/home/parallels/test/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/mobile_robot -- -j8 -l8
+[0.069s] Invoked command in '/home/parallels/test/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/mobile_robot -- -j8 -l8
+[0.118s] Invoking command in '/home/parallels/test/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/mobile_robot
+[0.128s] -- Install configuration: ""
+[0.128s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch
+[0.129s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition
+[0.129s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/launch
+[0.129s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/launch/launch_yolov8.launch.py
+[0.130s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/package.xml
+[0.130s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts
+[0.130s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/.dockerignore
+[0.130s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/.gitignore
+[0.130s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/yolov8_ros2_subscriber.py
+[0.130s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/.gitattributes
+[0.130s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/yolov8_ros2_pt.py
+[0.130s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/yolov8n.pt
+[0.138s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/CMakeLists.txt
+[0.138s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/gazebo_model.launch.py
+[0.138s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs
+[0.139s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/package.xml
+[0.139s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/msg
+[0.139s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/msg/InferenceResult.msg
+[0.139s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/msg/Yolov8Inference.msg
+[0.140s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/CMakeLists.txt
+[0.140s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/model
+[0.140s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+[0.140s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/model/empty_world (copy).world
+[0.140s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/model/robot.xacro
+[0.140s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/model/empty_world.world
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/model/empty_world (another copy).world
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/environment/path.sh
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.bash
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.sh
+[0.141s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[0.142s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[0.142s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/package.dsv
+[0.142s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[0.142s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[0.143s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[0.143s] -- Up-to-date: /home/parallels/test/install/mobile_robot/share/mobile_robot/package.xml
+[0.144s] Invoked command in '/home/parallels/test/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/mobile_robot

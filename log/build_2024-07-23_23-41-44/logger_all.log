@@ -1,0 +1,353 @@
+[0.135s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.136s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7de53d25a320>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7de53d34e950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7de53d34e950>>, mixin_verb=('build',))
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.426s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/parallels/test'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robot' with type 'ros.ament_cmake' and name 'mobile_robot'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_msgs) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robot_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot_recognition) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robot_recognition' with type 'ros.ament_cmake' and name 'yolobot_recognition'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(~/yolobot/src/yolobot_recognition/scripts) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.493s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/parallels/test/install
+[0.494s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/iron
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/test/build/mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/test/install/mobile_robot', 'merge_install': False, 'path': '/home/parallels/test/src/mobile_robot', 'symlink_install': False, 'test_result_base': None}
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/test/build/yolobot_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/test/install/yolobot_recognition', 'merge_install': False, 'path': '/home/parallels/test/src/mobile_robot_recognition', 'symlink_install': False, 'test_result_base': None}
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.567s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/test/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/test/install/yolov8_msgs', 'merge_install': False, 'path': '/home/parallels/test/src/mobile_robot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.567s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.568s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/test/src/mobile_robot' with build type 'ament_cmake'
+[0.569s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/test/src/mobile_robot'
+[0.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/test/src/mobile_robot_recognition' with build type 'ament_cmake'
+[0.576s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/test/src/mobile_robot_recognition'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.581s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/test/src/mobile_robot_msgs' with build type 'ament_cmake'
+[0.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/test/src/mobile_robot_msgs'
+[0.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/test/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/mobile_robot -- -j8 -l8
+[0.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/test/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/yolobot_recognition -- -j8 -l8
+[0.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/test/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/yolov8_msgs -- -j8 -l8
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/test/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/mobile_robot -- -j8 -l8
+[0.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/test/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/yolobot_recognition -- -j8 -l8
+[0.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/test/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/mobile_robot
+[0.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/test/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/yolobot_recognition
+[0.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robot)
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot' for CMake module files
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot' for CMake config files
+[0.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'cmake_prefix_path')
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.ps1'
+[0.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/test/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/mobile_robot
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.dsv'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot/lib/pkgconfig/mobile_robot.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot/lib/python3.10/site-packages'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot/bin'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.sh'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.bash'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.zsh'
+[0.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/test/install/mobile_robot/share/colcon-core/packages/mobile_robot)
+[0.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_recognition)
+[0.762s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition' for CMake module files
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/test/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/yolobot_recognition
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition' for CMake config files
+[0.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_recognition', 'cmake_prefix_path')
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.ps1'
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/lib'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/bin'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/lib/pkgconfig/yolobot_recognition.pc'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/lib/python3.10/site-packages'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/bin'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.bash'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.zsh'
+[0.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/test/install/yolobot_recognition/share/colcon-core/packages/yolobot_recognition)
+[0.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robot)
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot' for CMake module files
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot' for CMake config files
+[0.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'cmake_prefix_path')
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.sh'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot/bin'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot/lib/pkgconfig/mobile_robot.pc'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot/lib/python3.10/site-packages'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/mobile_robot/bin'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.sh'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.bash'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/mobile_robot/share/mobile_robot/package.zsh'
+[0.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/test/install/mobile_robot/share/colcon-core/packages/mobile_robot)
+[0.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_recognition)
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition' for CMake module files
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition' for CMake config files
+[0.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_recognition', 'cmake_prefix_path')
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.sh'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/lib'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/bin'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/lib/pkgconfig/yolobot_recognition.pc'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/lib/python3.10/site-packages'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolobot_recognition/bin'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.bash'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolobot_recognition/share/yolobot_recognition/package.zsh'
+[0.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/test/install/yolobot_recognition/share/colcon-core/packages/yolobot_recognition)
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/test/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/yolov8_msgs -- -j8 -l8
+[1.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/test/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/yolov8_msgs
+[1.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs' for CMake module files
+[1.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/test/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/yolov8_msgs
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs' for CMake config files
+[1.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/lib'
+[1.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/bin'
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/lib/python3.10/site-packages'
+[1.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'pythonpath')
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.dsv'
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.sh'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/bin'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[1.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/test/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[1.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs' for CMake module files
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs' for CMake config files
+[1.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/lib'
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/bin'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/lib/python3.10/site-packages'
+[1.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'pythonpath')
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.ps1'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.dsv'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.sh'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/test/install/yolov8_msgs/bin'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/test/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[1.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/test/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[1.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.512s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.519s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.519s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.519s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.537s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/test/install/local_setup.ps1'
+[1.539s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parallels/test/install/_local_setup_util_ps1.py'
+[1.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/test/install/setup.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/test/install/local_setup.sh'
+[1.544s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parallels/test/install/_local_setup_util_sh.py'
+[1.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/test/install/setup.sh'
+[1.546s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/test/install/local_setup.bash'
+[1.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/test/install/setup.bash'
+[1.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/test/install/local_setup.zsh'
+[1.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/test/install/setup.zsh'

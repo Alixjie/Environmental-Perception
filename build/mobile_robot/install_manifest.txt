@@ -1,0 +1,34 @@
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/launch/launch_yolov8.launch.py
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/package.xml
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/.dockerignore
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/.gitignore
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/yolov8_ros2_subscriber.py
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/.gitattributes
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/yolov8_ros2_pt.py
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/scripts/yolov8n.pt
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_recognition/CMakeLists.txt
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/gazebo_model.launch.py
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/package.xml
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/msg/InferenceResult.msg
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/msg/Yolov8Inference.msg
+/home/parallels/test/install/mobile_robot/share/mobile_robot/launch/mobile_robot_msgs/CMakeLists.txt
+/home/parallels/test/install/mobile_robot/share/mobile_robot/model/robot.gazebo
+/home/parallels/test/install/mobile_robot/share/mobile_robot/model/empty_world (copy).world
+/home/parallels/test/install/mobile_robot/share/mobile_robot/model/robot.xacro
+/home/parallels/test/install/mobile_robot/share/mobile_robot/model/empty_world.world
+/home/parallels/test/install/mobile_robot/share/mobile_robot/model/empty_world (another copy).world
+/home/parallels/test/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+/home/parallels/test/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+/home/parallels/test/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+/home/parallels/test/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+/home/parallels/test/install/mobile_robot/share/mobile_robot/environment/path.sh
+/home/parallels/test/install/mobile_robot/share/mobile_robot/environment/path.dsv
+/home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.bash
+/home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.sh
+/home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.zsh
+/home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.dsv
+/home/parallels/test/install/mobile_robot/share/mobile_robot/package.dsv
+/home/parallels/test/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+/home/parallels/test/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+/home/parallels/test/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+/home/parallels/test/install/mobile_robot/share/mobile_robot/package.xml

@@ -1,0 +1,42 @@
+[0.016s] Invoking command in '/home/parallels/test/build/mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/parallels/test/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/parallels/test/install/mobile_robot
+[0.204s] -- The C compiler identification is GNU 11.4.0
+[0.340s] -- The CXX compiler identification is GNU 11.4.0
+[0.361s] -- Detecting C compiler ABI info
+[0.457s] -- Detecting C compiler ABI info - done
+[0.470s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.473s] -- Detecting C compile features
+[0.474s] -- Detecting C compile features - done
+[0.481s] -- Detecting CXX compiler ABI info
+[0.576s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.588s] -- Detecting CXX compile features
+[0.589s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.815s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.949s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.066s] -- Added test 'lint_cmake' to check CMake code style
+[1.068s] -- Added test 'xmllint' to check XML markup files
+[1.070s] -- Configuring done
+[1.074s] -- Generating done
+[1.075s] -- Build files have been written to: /home/parallels/test/build/mobile_robot
+[1.079s] Invoked command in '/home/parallels/test/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/parallels/test/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/parallels/test/install/mobile_robot
+[1.082s] Invoking command in '/home/parallels/test/build/mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/mobile_robot -- -j8 -l8
+[1.126s] Invoked command in '/home/parallels/test/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/parallels/test/build/mobile_robot -- -j8 -l8
+[1.169s] Invoking command in '/home/parallels/test/build/mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/mobile_robot
+[1.177s] -- Install configuration: ""
+[1.178s] -- Installing: /home/parallels/test/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[1.178s] -- Installing: /home/parallels/test/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[1.178s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[1.178s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[1.178s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/environment/path.sh
+[1.179s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[1.179s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.bash
+[1.179s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.sh
+[1.179s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[1.179s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[1.180s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/package.dsv
+[1.180s] -- Installing: /home/parallels/test/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[1.180s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[1.180s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[1.180s] -- Installing: /home/parallels/test/install/mobile_robot/share/mobile_robot/package.xml
+[1.182s] Invoked command in '/home/parallels/test/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/parallels/test/build/mobile_robot
